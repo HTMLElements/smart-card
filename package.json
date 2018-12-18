@@ -1,0 +1,43 @@
+{
+ "name": "@smarthtmlelements/smart-card",
+ "version": "2.0.2",
+ "description": "Smart Card",
+ "scripts": {},
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/HTMLElements/smart-card.git"
+ },
+ "author": "Smart HTML Elements",
+ "license": "SEE LICENSE IN https://www.htmlelements.com/license/",
+ "bugs": {
+  "url": "https://github.com/HTMLElements/smart-card"
+ },
+ "homepage": "https://github.com/HTMLElements/smart-card#readme",
+ "devDependencies": {},
+ "dependencies": {
+  "@webcomponents/webcomponentsjs": "^1.0.22",
+  "@smarthtmlelements/smart-core": "^2.0.1"
+ },
+ "main": "index.js",
+ "directories": {},
+ "keywords": [
+  "custom",
+  "element",
+  "card custom element",
+  "html card",
+  "card",
+  "web components card",
+  "card element",
+  "banner rotator",
+  "custom card",
+  "card widget",
+  "card ui",
+  "card component",
+  "card control",
+  "banner",
+  "banner element",
+  "banner user interface",
+  "material banner",
+  "material carousel"
+ ]
+}

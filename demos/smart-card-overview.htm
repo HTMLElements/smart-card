@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.0.22/webcomponents-lite.js"></script>
+  
+    <link rel="stylesheet" href="../../smart-core/source/styles/smart.default.css" type="text/css" />
+    <!--! do not remove --> 
+   <link rel="stylesheet" href="../styles/demos.css" type="text/css" />
+   <script type="text/javascript" src="../../smart-core/source/smart.core.js"></script>
+   <style>
+		body {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		smart-card.basic-card .card-content,
+		smart-card.basic-card .card-action {
+			box-sizing: border-box;
+			padding: 20px;
+			color: white;
+			background-color: #546E7A;
+			border-bottom: 1px solid rgba(160,160,160,0.2);
+			border-radius: 2px 2px 2px 2px;
+		}
+
+		smart-card.basic-card .card-title {
+			font-size: 18px;
+		}
+
+		smart-card.basic-card a {
+			color: #ffab40;
+			transition: color .3s ease;
+			text-transform: uppercase;
+			border-bottom: none;
+			text-decoration: none;
+			margin-right: 20px;
+		}
+
+			smart-card.basic-card a:hover {
+				color: #ffd8a6;
+			}
+   </style>
+</head>
+<body>
+    <smart-card class="basic-card">
+        <div class="card-content">
+            <span class="card-title">Card Title</span>
+            <p>
+                I am a very simple card. I am good at containing small bits of information.
+                I am convenient because I require little markup to use effectively.
+            </p>
+        </div>
+        <div class="card-action">
+            <a href="#">This is a link</a>
+            <a href="#">This is a link</a>
+        </div>
+    </smart-card>
+</body>
+</html>

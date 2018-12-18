@@ -1,0 +1,26 @@
+{
+  "name": "smart-card",
+  "authors": [
+    "jQWidgets Ltd"
+  ],
+  "description": "Smart Card is a free HTML Card Custom Element, built using native Javascript and CSS.",
+  "license": "Apache-2.0",
+  "keywords": [
+    "Smart Card",
+    "Card Web Component",
+    "JS Card",
+    "html Card",
+    "javascript Card" 
+  ],
+  "main": "",
+  "ignore": [
+    "**/.*",
+    "**/node_modules",
+    "**/bower_components",
+    "**/tests"
+  ],
+  "dependencies": {
+    "webcomponentsjs": "^1.0.0",
+    "smart-core": "HTMLElements/smart-core"
+  }
+}
